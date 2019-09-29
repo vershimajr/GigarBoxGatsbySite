@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply bg-gold px-3 py-2 rounded shadow;
+    transition: all 300ms linear;
+}
+
+.btn:hover {
+    @apply bg-gold-hover shadow-md;
+}
+
+.btn:active {
+    @apply bg-gold-active;
+}
+
+.section-card {
+    @apply w-11/12;
+}
+
+.form-container {
+    @apply w-11/12 mx-auto bg-white flex flex-col p-10 rounded-lg -mt-16 z-20 relative shadow-xl;
+}
+
+.form-heading { @apply text-4xl font-medium pb-5; }
+.form-description { @apply my-2 mb-4; }
+.form-main { @apply flex flex-col w-full; }
+.form-item { @apply w-full my-3;  }
+.form-label { @apply block my-2; }
+.form-input { @apply w-full border outline-none border-gray-300 rounded-lg py-3 px-3; transition: all 100ms linear; }
+.form-input:focus { @apply border-gray-400; }
+
+.form-submit { 
+    @apply px-8 py-3 bg-navyblue text-lg text-white rounded-lg self-start mt-5 shadow;
+    transition: all 300ms linear;
+}
+.form-submit:hover { @apply bg-blue-600 shadow-md }
+.form-submit:active { @apply bg-blue-700 }
+
+.textarea-no-resize { resize:none }
+
+.tr-200-ease {
+    transition: all 200ms ease;
+}
+
+.tr-300 {
+    transition: all 300ms linear;
+}
+
+@screen sm {
+    .section-card { width: 47% }
+    .form-container { @apply w-139 }
+}
+
+@screen xl {
+    .section-card { width: 23% }
+}
