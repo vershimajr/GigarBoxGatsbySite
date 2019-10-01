@@ -25,7 +25,7 @@ const Footer = () => {
                         </h6>
                         <Link aria-label="GigarBox Academic form page" to="/academia">GigarBox Academic</Link>
                         <Link aria-label="GigarBox Government form page" to="/government">GigarBox Government</Link>
-                        <Link aria-label="GigarBox Business form page" to="/business">GigarBox Buisness</Link>
+                        <Link aria-label="GigarBox Business form page" to="/business">GigarBox Business</Link>
                         <Link aria-label="GigarBox Personal form page" to="/personal">GigarBox Personal</Link>
                     </div>
                 </div>
