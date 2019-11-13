@@ -96,7 +96,7 @@ export const query = graphql`
                 }
             }
         }
-        devices: file(relativePath: { eq: "1026.png" }) {
+        devices: file(relativePath: { eq: "1026-gold.png" }) {
             childImageSharp {
                 fluid(maxHeight: 345, quality: 80) {
                     ...GatsbyImageSharpFluid_withWebp_tracedSVG
