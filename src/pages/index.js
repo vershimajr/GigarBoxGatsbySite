@@ -27,14 +27,12 @@ const IndexPage = ({ data }) => {
                 </div>
             </BackgroundImage>
             <section id="about-us" className="bg-svg-circuit-light bg-svg-fixed">
-                <div className="container mx-auto py-32 flex flex-col">
+                <div className="container mx-auto py-24 flex flex-col">
                     <div className="flex flex-col md:flex-row text-center md:text-left justify-between items-center md:px-10">
                         <div className="w-11/12 md:w-1/2 lg:w-1/3 lg:mx-auto mt-16 md:mt-0 md:pr-10 lg:pr-0">
-                            <h3 className="text-2xl sm:text-3xl md:text-2xl font-bold text-gold inline-block pb-1 border-b-2 border-gold">
-                                GigarBox was built for
-                            </h3>
                             <h2 className="my-6 text-2xl lg:text-3xl font-bold leading-tight">
-                                Cryptographically secure document storage, management, and verification across a variety of industries
+                                <span className="text-gold ">GigarBox was built for </span>cryptographically-secure document storage, management, and
+                                verification
                             </h2>
                             <p className="text-xl">
                                 GigarBox is enriching public and private social infrastructures through our trustful document recording and verification
