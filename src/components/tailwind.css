@@ -15,6 +15,19 @@
     @apply bg-gold-active;
 }
 
+.btn2 {
+    @apply bg-info px-3 py-2 rounded shadow;
+    transition: all 300ms linear;
+}
+
+.btn2:hover {
+    @apply bg-info-hover shadow-md;
+}
+
+.btn2:active {
+    @apply bg-info-active;
+}
+
 .section-card {
     @apply w-11/12;
 }

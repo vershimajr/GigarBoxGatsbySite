@@ -57,7 +57,7 @@ const IndexPage = ({ data }) => {
                 fluid={data.features.childImageSharp.fluid}
             >
                 <div className="container mx-auto flex flex-wrap justify-between py-20">
-                    <SectionCard title="Academia" link="/academia">
+                  <SectionCard title="Academia" link="/academia" link2="https://academia.gigarbox.com" link2message="Visit The Academia Portal">
                         Academic institutions around the world are leveraging GigarBox technology for the storage, management, and verification of student
                         academic records
                     </SectionCard>
