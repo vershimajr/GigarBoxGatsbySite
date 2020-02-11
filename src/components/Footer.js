@@ -13,6 +13,7 @@ const Footer = () => {
                         <Link to="/#about-us">About Us</Link>
                         <Link to="/contact">Contact Us</Link>
                         <Link to="/technology">Our Technology</Link>
+                        <a href="https://blog.gigarbox.com">Blog</a>
                     </div>
                 </div>
                 <div className="order-last md:order-none w-10/12 sm:w-6/12 mx-auto md:mx-0 md:w-1/3 text-muted text-center flex flex-col justify-center items-center">
